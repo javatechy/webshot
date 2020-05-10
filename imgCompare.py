@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np
-image1 = cv2.imread('odspweb.png') 
-image2 = cv2.imread('faultypage.png') 
+image1 = cv2.imread('0.png') 
+image2 = cv2.imread('2.png') 
 
 if image1.shape == image2.shape:
     print("images are equal in size")
@@ -17,7 +17,7 @@ percentage = (np.count_nonzero(res) * 100)/ res.size
 
 print("Pecentage difference : ", percentage)
 difference = cv2.subtract(image1,image2)
-#cv2.imshow("difference",difference)
+cv2.imshow("difference",difference)
 
 
 #cv2.imshow("diff", image1)

@@ -1,2 +1,12 @@
 venv/*
 *.png
+__pycache__/*/__pycache__
+/dokr.egg-info/
+/dist/
+build/
+.settings/
+.project
+.classpath
+*.pyc
+/dokenv/
+/__pycache__/
